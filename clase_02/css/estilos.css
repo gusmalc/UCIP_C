@@ -1,0 +1,32 @@
+body{
+    background-color: #c9e021;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: #00ff00;
+    font-size: 2rem;
+}
+
+#titulox{
+    color: #f00;
+}
+
+.cajas{
+    width: 300px;
+    height: 50px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+#info{
+    width: 100%;
+    border: #222 solid 6px;
+    height: 100px;
+    background-color: #f00;
+    padding: 20px;
+}
+
