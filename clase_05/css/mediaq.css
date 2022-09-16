@@ -1,0 +1,27 @@
+#caja1{
+    
+    height: 50px;
+    background: #f00;
+}
+
+/* @media (min-width: 576px) {
+    #caja1{
+        background: #0f0;
+    }
+}   */
+@media (min-width: 768px) {
+    #caja1{
+        background: #00f;
+    } 
+}  
+@media (min-width: 992px) {
+    #caja1{
+        display: none;
+    }
+}  
+@media (min-width: 1200px) {
+    /* #caja1{
+        background: #ff0;
+    } */
+}
+
