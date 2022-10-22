@@ -55,12 +55,43 @@ let yy = document.querySelector("#el1>.box");
 
 //console.log(xx.innerHTML);
 
-function mi_func(){
-    alert("Ahora si CAFE!!!");
-};
+// function mi_func(){
+//     alert("Ahora si CAFE!!!");
+// };
 
-let mi_func2 = function(){
-    alert("Ahora si CAFE!!!");
+// let mi_func2 = function(){
+//     alert("Ahora si CAFE!!!");
+// }
+
+// mi_func2();
+
+// function suma(a,b) {
+//     //alert(a+b);
+//     return a + b;
+// }
+
+// let c = suma(2,3);
+
+// alert(c);
+
+function texto(...s){
+    //let x = "";
+    // s.forEach((dato) => {
+    //     x += dato;
+    // });
+    return s.join(" - ");
 }
 
-mi_func2();
+let aaa = texto("Hola", "Mundo", "Quiero", "Vacaciones");
+
+el1.innerHTML = aaa;
+
+// let mi_func = (a,b)=>{
+//     return a+b;
+// }
+
+let mi_func = (a,b)=> a+b;
+   
+el1.addEventListener("click",()=>{
+    alert('ok');
+});
