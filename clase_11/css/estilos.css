@@ -1,0 +1,23 @@
+.dp-container {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 992px) {
+    .dp-container {
+        padding-right: 4rem;
+        padding-left: 4rem;        
+    }
+} 
+
+.mitabla{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mitabla td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
