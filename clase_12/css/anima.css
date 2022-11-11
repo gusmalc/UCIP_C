@@ -1,0 +1,115 @@
+
+
+#caja1{
+    width: 200px;
+    height: 40px;
+    background: #f00;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in;
+}
+
+#caja1:hover{
+    width: 500px;
+    background: #0f0;
+}
+
+#caja2{
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+#caja2:hover{
+    border-radius: 50%;
+    transform: translateX(300px);
+}
+
+#caja3{
+    width: 100px;
+    height: 100px;
+    background: #00f;
+
+    /* animation-name: abc; */
+    animation-duration: 1s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+/* @keyframes abc{
+    from{
+       transform: translateY(0px); 
+    }
+    to{
+        transform: translateY(200px);
+    }    
+} */
+
+@keyframes abc{
+    0%{
+       transform: translateY(0px) rotate(0deg); 
+    }
+    50%{
+        background: #0ff; 
+    }
+    100%{
+        transform: translateY(200px) rotate(90deg);
+        box-shadow: 12px 12px 8px rgb(0,0,0,0.5);
+    }    
+}
+
+#box-corazon{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
+
+#corazon{
+    width: 200px;
+    height: 200px;
+    background: #f00; 
+    position: relative;   
+    transform: rotate(45deg);
+    animation-name: cor;
+    animation-duration: 1s;
+    /* animation-delay: 1s; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 999;
+}
+
+#corazon::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: #f00; 
+    border-radius: 50%;
+    position: absolute;
+    top: -100px;
+}
+#corazon::before{
+    content: "TE AMO";
+    width: 200px;
+    height: 200px;
+    background: #f00; 
+    border-radius: 50%;
+    position: absolute;
+    left: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes cor{
+    from{
+       transform: scale(0) rotate(45deg); 
+    }
+    to{
+        transform: scale(1.1) rotate(45deg);
+    }    
+}

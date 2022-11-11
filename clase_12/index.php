@@ -5,21 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     
-    <div class="dp-container">
-        <div id="respuesta"></div>
-    </div>
+<div id="contenido"></div>
 
-    <script src="js/piccola_app.js?a=1"></script>
+<div id="app">
+    
+</div>
 
-
-
-
-
-
-
+<script src='js/scripts.js?a=<?php echo time(); ?>' charset='utf-8'></script>
 </body>
 </html>

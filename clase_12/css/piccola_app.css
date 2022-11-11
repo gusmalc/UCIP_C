@@ -1,0 +1,67 @@
+:root{
+    --color-1: #222;
+    --color-2: #fff;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dp-btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;    
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0px;
+    transition: all 0.15s ease-in-out;
+}
+.dp-btn-1{
+    color: #fff;
+    background: #f00;
+}
+.dp-btn-1:hover{
+    background: #580707;
+}
+
+#app{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#sx{
+    width: 100%;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dx{
+    width: 100%;
+    background: #222;
+    color: #fff;
+}
+#texto{
+    height: 30px;
+    margin-bottom: 10px;
+}
