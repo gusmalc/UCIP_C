@@ -9,7 +9,6 @@
 <body>
     
 <div id="contenido"></div>
-
 <div id="app">
     
 </div>

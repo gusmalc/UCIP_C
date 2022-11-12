@@ -61,4 +61,5 @@ function funx(i){
     .catch(err=>{
         console.log(err.message);
     });
+    
 }

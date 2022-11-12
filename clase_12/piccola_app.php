@@ -23,6 +23,7 @@
 </div>
 
 
+
 <script src='js/piccola_app.js?a=<?php echo time(); ?>' charset='utf-8'></script>
 </body>
 </html>

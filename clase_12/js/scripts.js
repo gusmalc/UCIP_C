@@ -19,5 +19,6 @@ hh1.style.color = "#f00";
 let hh2 = document.createElement("h1");
 hh2.innerHTML = "Soy el segundo h1";
 
+
 app.appendChild(hh1);
 app.appendChild(hh2);

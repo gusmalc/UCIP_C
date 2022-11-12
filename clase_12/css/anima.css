@@ -82,7 +82,6 @@
     animation-direction: alternate;
     z-index: 999;
 }
-
 #corazon::after{
     content: "";
     width: 200px;
