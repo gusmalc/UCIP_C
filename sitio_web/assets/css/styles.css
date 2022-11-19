@@ -1,0 +1,21 @@
+/* .bg-dark{
+    background-color: #ccc !important;
+} */
+
+#box-slider{
+    padding-top: 40px;
+}
+main{
+    min-height: 500px;
+}
+footer{
+    background: #222;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#box-mapa{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
