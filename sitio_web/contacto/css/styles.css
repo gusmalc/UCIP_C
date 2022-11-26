@@ -1,0 +1,10 @@
+#main{
+    padding-bottom: 40px;
+}
+
+#datos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
